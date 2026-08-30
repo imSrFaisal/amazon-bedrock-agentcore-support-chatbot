@@ -1,0 +1,19 @@
+{
+  "tests": [
+    {
+      "id": "t1_bug_report",
+      "prompt": "The checkout page crashes when I click the Pay button.",
+      "expected": "Acknowledges the bug and asks for the steps to reproduce or the environment."
+    },
+    {
+      "id": "t2_platform_question",
+      "prompt": "What is your return policy?",
+      "expected": "Answers using the FAQ, stating items can be returned within 30 days."
+    },
+    {
+      "id": "t3_other_request",
+      "prompt": "What is the capital of Bangladesh?",
+      "expected": "Politely redirects the customer to the human support line at 1-800-555-0199 (Mon-Fri)."
+    }
+  ]
+}
